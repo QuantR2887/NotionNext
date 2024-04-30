@@ -19,7 +19,7 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    '星になれたらφ(゜▽゜*)♪',
+    '需要时叫醒我(∪.∪ )...zzz',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
@@ -293,7 +293,7 @@ const BLOG = {
   MUSIC_PLAYER_CDN_URL:
     process.env.NEXT_PUBLIC_MUSIC_PLAYER_CDN_URL ||
     'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js',
-  MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
+  MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'random', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
    {
@@ -353,11 +353,11 @@ const BLOG = {
         'https://p1.music.126.net/XXyvKxoGL4PUeSlb9uU2eg==/109951168110215317.jpg'
     },
 　　{
-      name: '星座になれたら',
+      name: 'イワシがつちからはえてくるんだ',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=2003496380.mp3',
+      url: 'https://music.163.com/song/media/outer/url?id=1308819787.mp3',
       cover:
-        'https://p2.music.126.net/KcRtt7Vi4b-jWSKmCgb8zQ==/109951168110222499.jpg'
+        'https://p2.music.126.net/AJ2bKIgS8aE2sp9vVWFjOA==/109951163549295745.jpg'
     },
 
   ],
