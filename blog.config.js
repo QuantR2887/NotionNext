@@ -344,21 +344,21 @@ const BLOG = {
       url: 'https://music.163.com/song/media/outer/url?id=2003496503.mp3',
       cover:
         'https://p2.music.126.net/dqzbrDjhtm4p9zoeCAGByA==/109951168110209473.jpg'
-    }
+    },
     {
       name: '忘れてやらない',
       artist: 'Falcom Sound Team jdk',
       url: 'https://music.163.com/song/media/outer/url?id=2003496467.mp3',
       cover:
         'https://p1.music.126.net/XXyvKxoGL4PUeSlb9uU2eg==/109951168110215317.jpg'
-    }
+    },
 　　{
       name: '星座になれたら',
       artist: 'Falcom Sound Team jdk',
       url: 'https://music.163.com/song/media/outer/url?id=2003496380.mp3',
       cover:
         'https://p2.music.126.net/KcRtt7Vi4b-jWSKmCgb8zQ==/109951168110222499.jpg'
-    }
+    },
 
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
